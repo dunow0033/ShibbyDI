@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ShibbyDI">
+        android:theme="@style/Theme.ShibbyDI"
+        android:name=".DependencyApplication">
         <activity
             android:name=".MainActivity"
             android:exported="true">
